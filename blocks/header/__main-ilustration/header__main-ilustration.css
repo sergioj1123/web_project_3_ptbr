@@ -1,0 +1,17 @@
+.header__main-ilustration {
+  max-width: 984px;
+  width: 100%;
+  padding-top: 64px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__main-ilustration {
+    padding-top: 69px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__main-ilustration {
+    padding-top: 40px;
+  }
+}
