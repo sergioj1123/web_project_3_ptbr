@@ -1,15 +1,9 @@
-/* Importando arquivos da font */
-:root {
-  font-family: "Inter", sans-serif;
-}
-@supports (font-variation-settings: normal) {
-  :root {
-    font-family: "Inter var", sans-serif;
-  }
-}
-
 .page {
   background-color: #2a2c2f;
+}
+
+.general-text {
+  margin: 0;
   color: #ffffff;
   font-style: normal;
   font-family: "Inter";

@@ -1,0 +1,10 @@
+.reference__cite {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 320px) {
+  .reference__cite {
+    line-height: 34px;
+  }
+}

@@ -1,4 +1,6 @@
 .header__subtitle {
+  max-width: 720px;
+  width: 100%;
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
