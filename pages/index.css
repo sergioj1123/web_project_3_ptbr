@@ -18,3 +18,7 @@
 @import url(../blocks/reference/reference.css);
 @import url(../blocks/reference/__cite/reference__cite.css);
 @import url(../blocks/reference/__text/reference__text.css);
+
+/* importando photo-grid */
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__img/photo-grid__img.css);
