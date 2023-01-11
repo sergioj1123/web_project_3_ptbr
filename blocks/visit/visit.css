@@ -1,0 +1,9 @@
+.visit {
+  display: grid;
+  grid-column: 1fr;
+  grid-template-areas: "geral";
+  max-width: 1184px;
+  max-height: 740px;
+  padding: 86px 0 92px;
+  margin: 0 auto;
+}

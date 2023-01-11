@@ -1,0 +1,36 @@
+.place__container {
+  position: relative;
+  max-width: 984px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  /* display: flex;
+  flex-direction: column;
+  gap: 48px; */
+  grid-column-gap: 40px;
+  grid-row-gap: 48px;
+  grid-template-areas:
+    "title artist"
+    "img texto"
+    "button .";
+}
+
+@media screen and (max-width: 768px) {
+  .place__container {
+    max-width: 733px;
+    grid-column-gap: 28px;
+    grid-template-rows: auto;
+    grid-row-gap: 46px;
+    grid-template-areas:
+      "title artist"
+      "img texto"
+      "button texto";
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    padding-top: 40px;
+  }
+}

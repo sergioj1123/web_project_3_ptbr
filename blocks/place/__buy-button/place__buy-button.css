@@ -1,0 +1,17 @@
+.place__buy-button {
+  grid-area: button;
+  max-width: 355px;
+  max-height: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__buy-button {
+    /* grid-row: 2;
+    margin-top: calc(100%);
+    padding-top: 20px;
+    z-index: 1; */
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

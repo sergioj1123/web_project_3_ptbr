@@ -1,0 +1,10 @@
+.geral-button {
+  background: #0278fe;
+  border-radius: 4px;
+  padding: 13px 20px;
+}
+
+.geral-button:hover {
+  cursor: pointer;
+  background: #0063d2;
+}

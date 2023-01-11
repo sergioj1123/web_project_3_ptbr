@@ -1,0 +1,10 @@
+.place__artist-name {
+  grid-area: artist;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  max-width: 456px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}

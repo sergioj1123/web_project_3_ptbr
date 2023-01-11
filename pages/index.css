@@ -22,3 +22,29 @@
 /* importando photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__img/photo-grid__img.css);
+
+/* importando place */
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__container/place__container.css);
+@import url(../blocks/place/__head/place__head.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__artist-name/place__artist-name.css);
+@import url(../blocks/place/__artist-name/_profession/place__artist-name_profession.css);
+@import url(../blocks/place/__main-information/place__main-information.css);
+@import url(../blocks/place/__img/place__img.css);
+@import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__text-container/place__text-container.css);
+@import url(../blocks/place/__buy-button/place__buy-button.css);
+@import url(../blocks/place/__buy-button/_color-inside-text/place__buy-button_color-inside-text.css);
+
+/* importando botão */
+@import url(../blocks/geral-button/geral-button.css);
+@import url(../blocks/geral-button/__text/geral-button__text.css);
+
+/* Importando bloco visit */
+@import url(../blocks/visit/visit.css);
+@import url(../blocks/visit/__img/visit__img.css);
+@import url(../blocks/visit/__information/visit__information.css);
+@import url(../blocks/visit/__location/visit__location.css);
+@import url(../blocks/visit/__title/visit__title.css);
+@import url(../blocks/visit/__button-visit/visit__button-visit.css);

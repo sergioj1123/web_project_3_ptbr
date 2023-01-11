@@ -1,0 +1,14 @@
+.visit__location {
+  max-width: 280px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .visit__location {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

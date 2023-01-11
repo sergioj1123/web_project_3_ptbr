@@ -1,0 +1,17 @@
+.place__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__text-container {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__main-information {
+    padding-top: 40px;
+  }
+}
