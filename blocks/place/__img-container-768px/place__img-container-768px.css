@@ -1,0 +1,5 @@
+.place__img-container-768px {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}

@@ -1,0 +1,16 @@
+.place__button_grid {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .place__button_grid {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__button_grid {
+    display: block;
+    margin-top: -7px;
+  }
+}

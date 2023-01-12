@@ -1,0 +1,15 @@
+.place__button_under-image {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .place__button_under-image {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__button_under-image {
+    display: none;
+  }
+}

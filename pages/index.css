@@ -31,10 +31,14 @@
 @import url(../blocks/place/__artist-name/place__artist-name.css);
 @import url(../blocks/place/__artist-name/_profession/place__artist-name_profession.css);
 @import url(../blocks/place/__main-information/place__main-information.css);
+@import url(../blocks/place/__img-container/place__img-container.css);
 @import url(../blocks/place/__img/place__img.css);
 @import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__text-container/place__text-container.css);
 @import url(../blocks/place/__buy-button/place__buy-button.css);
+@import url(../blocks/place/__button/_grid/place__button_grid.css);
+@import url(../blocks/place/__button/place__button.css);
+@import url(../blocks/place/__button/_under-image/place__button_under-image.css);
 @import url(../blocks/place/__buy-button/_color-inside-text/place__buy-button_color-inside-text.css);
 
 /* importando botão */

@@ -11,7 +11,9 @@
 }
 
 @media screen and (max-width: 320px) {
-  .place__main-information {
-    padding-top: 40px;
+  .place__text-container {
+    gap: 7px;
+    max-width: 288px;
+    width: 100%;
   }
 }

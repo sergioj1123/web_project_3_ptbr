@@ -1,6 +1,7 @@
 .place__container {
   position: relative;
   max-width: 984px;
+  padding-bottom: 80px;
   display: grid;
   margin: 0 auto;
   grid-template-columns: repeat(2, 1fr);
@@ -19,18 +20,22 @@
 @media screen and (max-width: 768px) {
   .place__container {
     max-width: 733px;
+    grid-template-rows: auto auto;
+    grid-auto-rows: auto;
+    padding-bottom: 31px;
     grid-column-gap: 28px;
-    grid-template-rows: auto;
-    grid-row-gap: 46px;
     grid-template-areas:
       "title artist"
-      "img texto"
-      "button texto";
+      "img texto";
   }
 }
 
 @media screen and (max-width: 320px) {
-  .place__title {
-    padding-top: 40px;
+  .place__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    padding-bottom: 37px;
   }
 }
