@@ -2,6 +2,7 @@
   font-size: 72px;
   line-height: 76px;
   font-weight: 900;
+  z-index: 3;
 }
 
 @media screen and (max-width: 320px) {

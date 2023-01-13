@@ -4,6 +4,7 @@
   line-height: 22px;
   font-weight: 400;
   text-align: center;
+  z-index: 3;
 }
 
 @media screen and (max-width: 320px) {

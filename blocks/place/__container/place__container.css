@@ -24,9 +24,17 @@
     grid-auto-rows: auto;
     padding-bottom: 31px;
     grid-column-gap: 28px;
+    grid-row-gap: 46px;
     grid-template-areas:
       "title artist"
       "img texto";
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .place__container {
+    column-gap: 5px;
+    overflow: hidden;
   }
 }
 

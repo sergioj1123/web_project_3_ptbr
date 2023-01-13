@@ -1,9 +1,27 @@
 .visit {
   display: grid;
   grid-column: 1fr;
+  position: relative;
+  grid-row: auto;
   grid-template-areas: "geral";
   max-width: 1184px;
   max-height: 740px;
-  padding: 86px 0 92px;
+  padding: 6px 0 92px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .visit {
+    max-height: 746px;
+    height: 100%;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .visit {
+    max-height: 254px;
+    height: 100%;
+    padding-bottom: 64px;
+  }
 }

@@ -5,6 +5,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  z-index: 3;
+}
+
+.visit__information:hover {
+  background: #2a2c2f;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {

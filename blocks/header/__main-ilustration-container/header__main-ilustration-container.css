@@ -1,0 +1,18 @@
+.header__main-ilustration-container {
+  max-width: 984px;
+  width: 100%;
+  padding-top: 64px;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .header__main-ilustration-container {
+    padding-top: 69px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__main-ilustration-container {
+    padding-top: 40px;
+  }
+}

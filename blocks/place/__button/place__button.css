@@ -3,6 +3,19 @@
   width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .place__button {
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .place__button {
+    max-width: 360px;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__button {
     max-width: 289px;

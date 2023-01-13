@@ -1,4 +1,4 @@
 .visit__button-visit:hover {
-  background-color: #2a2c2f;
-  opacity: 0.8;
+  /* utilizei o padrão hex adicionando a opacity de 80% */
+  box-shadow: 0 0 0 1200px #2a2c2fcc;
 }
