@@ -38,7 +38,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .place__container {
     display: flex;
     flex-direction: column;

@@ -1,9 +1,4 @@
-/* Importando arquivos da font */
-:root {
+@font-face {
   font-family: "Inter", sans-serif;
-}
-@supports (font-variation-settings: normal) {
-  :root {
-    font-family: "Inter var", sans-serif;
-  }
+  src: url("https://rsms.me/inter/inter.css");
 }
